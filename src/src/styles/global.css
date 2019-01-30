@@ -1,0 +1,123 @@
+@import url('https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css');
+@import '../../node_modules/bulma/css/bulma.min.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+html, body, body > #___gatsby, #___gatsby > div {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.fullheight {
+    height: 100%;
+}
+
+.has-items-horizontal-centered {
+    justify-content: center;
+}
+
+.has-items-vertical-centered {
+    align-items: center;
+}
+
+.has-items-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.is-flex-column {
+    flex-direction: column;
+}
+
+.is-flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.is-flex-row {
+    flex-direction: row;
+}
+
+.is-flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.has-margin-1 {
+    margin: 1px;
+}
+
+.has-margin-2 {
+    margin: 2px;
+}
+
+.has-margin-4 {
+    margin: 4px;
+}
+
+.has-margin-8 {
+    margin: 8px;
+}
+
+.has-margin-horizontal-1 {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.has-margin-horizontal-2 {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.has-margin-horizontal-4 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.has-margin-horizontal-8 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.has-margin-vertical-1 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.has-margin-vertical-2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.has-margin-vertical-4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.has-margin-vertical-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.has-background-on-hoverable-success:hover {
+    background: hsl(141, 71%, 48%);
+}
+
+.has-background-on-hoverable-primary:hover {
+    background: hsl(171, 100%, 41%);
+}
+
+.has-background-on-hoverable-link:hover {
+    background: hsl(217, 71%, 53%); 
+}
+
+.has-background-on-hoverable-info:hover {
+    background: hsl(204, 86%, 53%); 
+}
+
+.has-background-on-hoverable-warning:hover {
+    background: hsl(48, 100%, 67%);
+}
