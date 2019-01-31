@@ -8,6 +8,7 @@ import Portfolio from '../components/portfolio';
 import Other from '../components/other';
 import Contact from '../components/contact';
 import Social from '../components/social';
+import Footer from '../components/footer';
 
 export default () => (
   <div className='fullwidth fullheight is-flex is-flex-column has-items-vertical-centered'>
@@ -18,5 +19,6 @@ export default () => (
     <Other />
     <Contact />
     <Social />
+    <Footer />
   </div>
 );
